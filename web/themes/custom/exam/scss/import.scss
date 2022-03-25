@@ -1,0 +1,31 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+//@import url(font-awesome.min.css);
+// variables
+@import "variables";
+// typography
+@import "typography";
+//bootstrap
+@import "bootstrap";
+//material design bootstrap
+//@import "../node_modules/mdbootstrap/scss/mdb-free.scss";
+// mixins
+@import "mixins";
+// barrio
+@import "barrio";
+@import "header";
+@import "about";
+@import "services-view";
+@import "projects-view";
+@import "employees-view";
+@import "news-view";
+@import "clients-view";
+@import "footer";
+@import "pages-general";
+@import "services-page";
+@import "projects-page";
+@import "employees-page";
+@import "news-page";
+@import "clients-page";
+@import "contacts-page";

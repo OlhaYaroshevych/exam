@@ -1,0 +1,27 @@
+.view-id-news {
+    .row {
+        padding: 40px 0;
+    }
+    .views-row {
+        padding: 0 0 0 40px;
+        position: relative;
+    }
+    .views-field-field-header {
+        overflow: hidden;
+    }
+    a {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $text-color;
+        &:hover {
+            color: $blue-shade;
+            text-decoration: none;
+        }
+        &:before {
+                left: 0;
+                position: absolute;
+                content: "\2709";
+        }
+    }
+}

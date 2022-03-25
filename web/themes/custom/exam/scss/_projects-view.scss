@@ -1,0 +1,102 @@
+.view-projects .views-col {
+    border-bottom: 1px solid $navy;
+    .views-field-view-node {
+        background-color: $navy;
+        margin-bottom: $gutterS;
+        a:hover {
+            opacity: 0.8;
+        }
+    }
+    .views-field-field-category {
+        text-transform: uppercase;
+        margin-bottom: $gutterS;
+        a {
+            text-decoration: none;
+        }
+    }
+    a[href="/taxonomy/term/1"] {
+        color: $mint;
+    }
+    a[href="/taxonomy/term/3"] {
+        color: $violet;
+    }
+    a[href="/taxonomy/term/2"] {
+        color: $lightred;
+    }
+    a[href="/taxonomy/term/4"] {
+        color: $lightblue;
+    }
+}
+
+.view-projects .views-col {
+    display: inline-flex;
+    margin: 0 0 0 25px;
+}
+
+.view-projects .views-col:first-child {
+    margin-left: 15px;
+}
+
+.views-col {
+    width: 23%;
+    background-color: white;
+}
+
+.pagerer-center-pane {
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        list-style-type: none;
+        padding-left: 0px;
+        li {
+            color: $text-color;
+            margin: 10px;
+            a {
+                color: $text-color;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+            & .is-active {
+                background-color: #d0d0d0;
+                border-radius: 50%;
+                padding: 0 5px;
+            }
+        }
+        li:nth-child(3) {
+            a {
+                padding-left: 2.5px;
+                padding-right: 2.5px;
+            }
+        }
+    }
+}
+
+ul.pager__items .js-pager__items {
+    left: -5px !important;
+}
+
+.view-projects {    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: repeating-linear-gradient(
+        135deg,
+        #fff,
+        #fff 6px,
+        #e7e7e7 2px,
+        #e7e7e7 8px
+    );
+}
+
+.views-col {
+    .views-field-field-image {
+        width: 100%;
+        img {
+            width: 100%;
+            height: fit-content;
+            object-fit: cover;
+        }
+    }
+}
+

@@ -1,0 +1,97 @@
+#block-exam-pagetitle {
+    display: none;
+}
+
+.node__content {
+    p {
+        text-align: justify;
+        text-indent: 25px;
+        line-height: 1.6;
+        margin-bottom: 0;
+    }
+    .field--type-string-long {
+        text-align: justify;
+        text-indent: 25px;
+        line-height: 1.6;
+    }
+    .field--name-field-image {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+    }
+    .image-style-large {
+        margin-bottom: 0;
+    } 
+    .field--name-field-header {
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        color: $text-color;
+        margin-bottom: $gutterS;
+    }
+    .field--name-field-employee-photo {
+        text-align: center;
+    }
+    img {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .field--name-field-employee-name {
+        overflow: hidden;
+    }
+    span.addtoany_list {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+article[data-history-node-id="24"] {
+        .readmore-extrafield {
+            display: none;
+        }
+        h2 {
+            display: none;
+        }
+}
+
+article[data-history-node-id="3"] {
+    img {
+        float: left;
+        margin-right: 20px;
+    }
+}
+
+.view-id-taxonomy_term {
+    .field--name-field-image {
+       text-align: center;
+       margin: 30px;
+   }
+   img {
+       margin-bottom: 0;
+   }
+   .feed-icons {
+       padding-bottom: $gutterM;
+   }
+}
+
+.node--view-mode-full {
+    .field--name-field-publication-date {
+        font-weight: bold;
+        float: right;
+    }
+}
+
+.page-404 {
+    left: 100px;
+    margin-top: -433px;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 40px;
+    &:before {
+        left: 0;
+        position: absolute;
+        content: "\2639";
+        margin-left: -62px;
+    }
+}
