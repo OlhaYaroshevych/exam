@@ -1,0 +1,22 @@
+.view-services-page {
+    .row {
+        padding: 40px 0;
+    }
+    .views-row {
+        position: relative;
+        padding: 5px 0 5px 30px;
+    }
+    a {
+        font-weight: bold;
+        color: $text-color;
+        &:hover {
+            color: $blue-shade;
+            text-decoration: none;
+        }
+        &:before {
+            left: 0;
+            position: absolute;
+            content: "\2713";
+        }
+    }
+}
